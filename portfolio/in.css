@@ -1,0 +1,405 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: rgb(0, 0, 32);
+	color: white;
+	font-family: 'Poppins', sans-serif;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100px;
+}
+
+nav ul {
+	display: flex;
+	justify-content: center;
+}
+
+nav ul li {
+	list-style: none;
+	margin: 0 23px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li a:hover {
+
+	color: rgb(197, 154, 14);
+	font-size: 1.02rem;
+}
+
+.left {
+	font-size: 2rem;
+
+	font-family: 'Dancing Script', sans-serif;
+	color: white;
+}
+
+.firstSection {
+	display: flex;
+	justify-content: space-around;
+	margin: 50px 0;
+	align-items: center;
+}
+
+.firstSection>div {
+	width: 30%;
+	margin-left: 30px;
+}
+
+.firstHalf {
+
+
+	justify-content: space-around;
+	font-size: 2.5rem;
+
+}
+
+.secondHalf {
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.secondHalf img {
+	width: 100%;
+	margin: 3px;
+}
+
+.sectDistributor {
+	border: none;
+	background-color: rgb(0, 0, 32);
+	margin: 40px 23px;
+}
+
+.heading {
+	margin: 30px 0 0 100px;
+	font-size: 30px;
+	justify-content: space-evenly;
+}
+
+h3.heading {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 20px;
+	text-align: center;
+
+}
+
+.education {
+	font-size: 1rem;
+	background-color: rgb(197, 154, 14);
+	color: black;
+	border: 2px solid yellow;
+	border-radius: 3cap;
+	margin: auto;
+	width: 35%;
+	padding: 20px;
+}
+
+.download-button {
+	display: inline-block;
+	background-color: rgb(197, 154, 14);
+	color: #fff;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 5px;
+	font-weight: bold;
+	margin: 20px;
+	justify-content: space-evenly;
+}
+
+.download-button:hover {
+	background-color: #0056b3;
+}
+
+.resumeSection {
+	margin-left: 120px;
+}
+
+div li img {
+	height: 40px;
+	width: auto;
+
+}
+
+footer {
+	background-color: rgb(197, 154, 14);
+	color: black;
+	text-align: center;
+	padding: 20px 0;
+}
+
+/* Styling for the contact information */
+.contact-info {
+	font-size: 16px;
+	margin: 5px 0;
+}
+
+.contact-info a {
+	color: black;
+	text-decoration: none;
+}
+
+/* LinkedIn link on hover */
+.contact-info a:hover {
+	text-decoration: underline;
+}
+
+.contact-info img {
+	height: 20px;
+	width: auto;
+	margin-right: 5px;
+}
+
+.skills {
+	/*style the text*/
+	width: 500px;
+	margin: 60px auto;
+	color: #fff;
+}
+
+.skills li {
+	/*set margin of li*/
+	margin: 20px 0px;
+	list-style: none;
+	margin-top: 50px;
+}
+
+.bar {
+	/*style the bar*/
+	background-color: #353b48;
+	display: block;
+	height: 20px;
+	border: 2px solid rgba(0, 0, 0, 0.3);
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 0 0 10px yellow;
+}
+
+.bar span {
+	/*style the span tag*/
+	height: 20px;
+	float: left;
+	background-color: rgb(197, 154, 14);
+}
+
+.html {
+	/*set skills and animation of html*/
+	width: 80%;
+	animation: html 2s;
+}
+
+.css {
+	/*set skills and animation of css*/
+	width: 75%;
+	animation: css 2s;
+}
+
+.javascript {
+	/*set skills and animation of javascript*/
+	width: 50%;
+	animation: javascript 2s;
+}
+
+.c {
+	/*set skills and animation of jquery*/
+	width: 70%;
+	animation: jquery 2s;
+}
+
+@keyframes html {
+
+	/*animate html skills*/
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 80%;
+	}
+}
+
+@keyframes css {
+
+	/*animate css skills*/
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 93%;
+	}
+}
+
+@keyframes javascript {
+
+	/*animate javascript skills*/
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 50%;
+	}
+}
+
+@keyframes jquery {
+
+	/*animate jquery skills*/
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 70%;
+	}
+}
+
+.certificateSection {
+	display: flex;
+	justify-content: space-evenly;
+	margin-left: 35px;
+	margin-right: 35px;
+	/* border: 2px solid #333; */
+	border-radius: 5px;
+}
+
+.box {
+	height: 400px;
+	width: 530px;
+	padding: 20px 0px 15px;
+	background-color: rgb(0, 0, 32);
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 0 0 10px rgb(104, 196, 219);
+	border-radius: 5px;
+
+}
+
+.box-img {
+	height: 360px;
+	width: 500px;
+
+
+}
+
+.box-content {
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+.foot-panel {
+	background: #353b48;
+	box-shadow: 0 0 10px #353b48;
+	color: white;
+	display: block;
+	text-align: center;
+	padding: 15px 0;
+	line-height: 19px;
+	font-size: 13px;
+	margin-bottom: 0;
+}
+
+/* h2 {
+	font-size: 36px;
+	color: white;
+	margin-bottom: 20px;
+} */
+
+/* Service styles */
+.services-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.service {
+	margin: 20px;
+	padding: 30px;
+	border: 1px solid #E0E0E0;
+	border-radius: 5px;
+	background-color: #fff;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+	width: 45%;
+	transition: transform 0.2s;
+
+}
+
+.service:hover {
+	transform: translateY(-5px);
+}
+
+.service h3 {
+	font-size: 24px;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+.service p {
+	font-size: 16px;
+	color: #555;
+}
+
+.hero-section {
+	background-image: url('WhatsApp\ Image\ 2023-10-25\ at\ 6.27.38\ PM.jpeg');
+	height: 500px;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+
+.video-container {
+	width: 60%;
+	/* Set the desired width */
+
+	margin: 0 auto;
+	/* Center the video horizontally */
+	overflow: hidden;
+	/* Hide horizontal overflow */
+	box-shadow: 0 0 10px rgba(137, 76, 187, 0.2);
+}
+
+.video-container video {
+	max-width: 100%;
+	/* Ensure the video doesn't exceed the container's width */
+	height: auto;
+	/* Maintain aspect ratio */
+	display: block;
+	/* Remove any default inline spacing */
+
+
+}
+
+.amazonProject {
+	max-width: 100%;
+	margin-top: 20px;
+	/* Add some space above the image */
+	text-align: center;
+	/* Center the image horizontally */
+}
+
+.amazonProject img {
+	width: 60%;
+	/* Ensure the image doesn't exceed its container's width */
+	height: auto;
+	/* Maintain the image's aspect ratio */
+	border: 2px solid #000;
+	/* Add a black border around the image */
+	border-radius: 5px;
+	/* Add rounded corners to the image */
+	box-shadow: 0 0 10px rgba(137, 76, 187, 0.2);
+	/* Add a subtle shadow to the image */
+}
